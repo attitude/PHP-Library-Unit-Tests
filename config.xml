@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit>
+    <testsuites>
+        <testsuite name="Storage">
+            <directory suffix=".test.php">storage.columns</directory>
+            <directory suffix=".test.php">storage.database</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
